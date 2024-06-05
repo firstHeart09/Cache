@@ -1,0 +1,5 @@
+本文件主要说明对于同一代码在不同环境下进行测试，每个具体的测试环境的说明
+icache_16kb_2way_64B: ICache大小为16KB，是2路组相联，cacheline的大小为64B
+icache_16kb_8way_64B: ICache大小为16KB，是8路组相联，cacheline的大小为64B
+icache_32kb_2way_64B: ICache大小为32KB，是2路组相联，cacheline的大小为64B
+icache_32kb_8way_64B: ICache大小为32KB，是8路组相联，cacheline的大小为64B
