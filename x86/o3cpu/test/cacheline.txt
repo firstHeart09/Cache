@@ -1,7 +1,0 @@
-./cpu/base.cc
-	-> int size = block_size;
-	-> Addr block_size = cacheLineSize();
-	-> base.hh  inline Addr cacheLineSize() const { return _cacheLineSize; }
-	-> base.cc 134 BaseCPU::BaseCPU(const Params &p, bool is_checker)
-      		_switchedOut(p.switched_out), _cacheLineSize(p.system->cacheLineSize()),
-	-> system.cc
